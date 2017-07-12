@@ -20,13 +20,12 @@ public class RoshamboApp2 {
 
             userChoice = getOpponent(scan);
 
-            //validation
+            //I used this as validation but i wasnt sure how to validate using a validator class
             while (!userChoice.equalsIgnoreCase("R1") && !userChoice.equalsIgnoreCase("R2")) {
                 System.out.println("Invalid Input! Please hit enter to input a valid input");
                 scan.nextLine();
                 userChoice = getOpponent(scan);
             }
-
 
             Roshambo rockChoice = rockPlayer.generateRoshambo();
             Roshambo randomChoice = randomPlayer.generateRoshambo();
@@ -83,14 +82,14 @@ public class RoshamboApp2 {
 
     }
 
-    private static String getOpponent(Scanner scan) {
+    public static String getOpponent(Scanner scan) {
         String userChoice;
         System.out.println("Would you like to play against RockPlayer R1 or RandomPlayer R2?: (R1/R2) ");
         userChoice = scan.nextLine();
         return userChoice;
     }
 
-    private static String getUserName(Scanner scan, Player player) {
+    public static String getUserName(Scanner scan, Player player) {
         String userName;
         System.out.println("Welcome to the Rock, Paper Scissors App!");
         System.out.println();
