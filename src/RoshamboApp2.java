@@ -14,10 +14,17 @@ public class RoshamboApp2 {
         Player randomPlayer = new RandomPlayer();
         Player player = new HumanPlayer();
 
+        userName = getUserName(scan, player);
+
         do {
-            userName = getUserChoice(scan, player);
 
             userChoice = getOpponent(scan);
+
+            while (!userChoice.equalsIgnoreCase( "R1") && !userChoice.equalsIgnoreCase("R2")) {
+                System.out.println("Invalid Input! Please hit enter to input a valid input");
+                scan.nextLine();
+                userChoice = getOpponent(scan);
+            }
 
 
             Roshambo rockChoice = rockPlayer.generateRoshambo();
@@ -32,7 +39,7 @@ public class RoshamboApp2 {
                 if (playerSelection.equals(rockChoice)) {
                     System.out.println("Draw!");
                 } else if (playerSelection.toString().equalsIgnoreCase("Scissors")) {
-                    System.out.println(player.getName() + " "  + "loses!");
+                    System.out.println(player.getName() + " " + "loses!");
                 } else if (playerSelection.toString().equalsIgnoreCase("Paper")) {
                     System.out.println(player.getName() + " " + "wins!");
                 }
@@ -82,7 +89,7 @@ public class RoshamboApp2 {
         return userChoice;
     }
 
-    private static String getUserChoice(Scanner scan, Player player) {
+    private static String getUserName(Scanner scan, Player player) {
         String userName;
         System.out.println("Welcome to the Rock, Paper Scissors App!");
         System.out.println();
