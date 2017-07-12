@@ -20,7 +20,8 @@ public class RoshamboApp2 {
 
             userChoice = getOpponent(scan);
 
-            while (!userChoice.equalsIgnoreCase( "R1") && !userChoice.equalsIgnoreCase("R2")) {
+            //validation
+            while (!userChoice.equalsIgnoreCase("R1") && !userChoice.equalsIgnoreCase("R2")) {
                 System.out.println("Invalid Input! Please hit enter to input a valid input");
                 scan.nextLine();
                 userChoice = getOpponent(scan);

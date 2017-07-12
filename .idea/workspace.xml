@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/RoshamboApp2.java" line="22" mnemonic="1" />
+    <bookmark url="file://$PROJECT_DIR$/src/RoshamboApp2.java" line="23" mnemonic="1" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4a81f8c-03f7-4a28-9158-3694c16a534f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RoshamboApp2.java" afterPath="$PROJECT_DIR$/src/RoshamboApp2.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -82,21 +81,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RoshamboApp.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RoshamboApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RoshamboApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
+            <state relative-caret-position="776">
               <caret line="65" column="18" lean-forward="true" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RoshamboApp2.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RoshamboApp2.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/RoshamboApp2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-583">
-              <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+            <state relative-caret-position="392">
+              <caret line="34" column="52" lean-forward="true" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -658,12 +657,12 @@
       <updated>1499713642796</updated>
       <workItem from="1499713644220" duration="9204000" />
       <workItem from="1499779274905" duration="3183000" />
-      <workItem from="1499800113557" duration="11590000" />
+      <workItem from="1499800113557" duration="11674000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23977000" />
+    <option name="totallyTimeSpent" value="24061000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -923,18 +922,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RoshamboApp2.java">
+    <entry file="file://$PROJECT_DIR$/src/RoshamboApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-583">
-          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        <state relative-caret-position="776">
+          <caret line="65" column="18" lean-forward="true" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RoshamboApp.java">
+    <entry file="file://$PROJECT_DIR$/src/RoshamboApp2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="65" column="18" lean-forward="true" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
+        <state relative-caret-position="392">
+          <caret line="34" column="52" lean-forward="true" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
           <folding />
         </state>
       </provider>
